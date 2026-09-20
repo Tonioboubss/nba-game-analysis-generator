@@ -1,0 +1,9 @@
+transformers>=4.40
+datasets>=2.19
+peft>=0.10
+accelerate>=0.29
+evaluate>=0.4
+sacrebleu>=2.4
+gradio>=4.20
+torch>=2.2
+spaces  # only used when deployed as a Hugging Face Space on ZeroGPU hardware — app.py no-ops it locally/in Colab
